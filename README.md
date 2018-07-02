@@ -3,7 +3,7 @@ I want to keep my files from my Master Thesis, so they dont get lost in the dept
 
 ## Folder structure
 * [src](src)
-    - [figures](figures)
+    - [figures](src/figures)
         - [figure_01](figure_01)
     - [fixed-effects-reg.do](fixed-effects-reg.do)
     - [thesis](thesis)
