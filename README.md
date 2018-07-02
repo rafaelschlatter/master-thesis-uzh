@@ -1,15 +1,19 @@
 # master-thesis-uzh
 I want to keep my files from my Master Thesis, so they dont get lost in the depth of a harddisk. I probably do not update/edit this content. The folder includes Stata code for detailed fixed effects regression analysis, R code for graphics and .tex files for the thesis.
 
-## Folder structure
-* [src](src)
-    - [figures](src/figures)
-        - [figure_01](figure_01)
-    - [fixed-effects-reg.do](fixed-effects-reg.do)
-    - [thesis](thesis)
-        - [cover](cover)
-            - [inside](inside)
-            - [outside](outside)
-        - [main](main)
+## Folder structure and files
+* [src](src): Contains all code
+    - [figures](src/figures): Contains R code for figures
+        - [figure_01](src/figures/figure_01)
+    - [fixed-effects-reg.do](src/fixed-effects-reg.do): Contains the statistical analysis
+    - [thesis](src/thesis): Contains all .tex files
+        - [cover](src/thesis/cover)
+            - [inside](src/thesis/cover/inside)
+            - [outside](src/thesis/cover/outside)
+        - [main](src/thesis/main)
 
+## Publication
+My thesis was recently published in the the Junior Management Science (JUMS) journal, and can be accessed here:
 
+- Article website: <https://jums.academy/r-schlatter/>
+- DOI: <https://doi.org/10.5282/jums/v3i1pp88-122>
