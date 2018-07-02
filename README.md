@@ -15,5 +15,5 @@ I want to keep my files from my Master Thesis, so they dont get lost in the dept
 ## Publication
 My thesis was recently published in the the Junior Management Science (JUMS) journal, and can be accessed here:
 
-- Article website: <https://jums.academy/r-schlatter/>
-- DOI: <https://doi.org/10.5282/jums/v3i1pp88-122>
+- Article website: <https://jums.academy/r-schlatter/>, includes appendices;
+- DOI: <https://doi.org/10.5282/jums/v3i1pp88-122>.
