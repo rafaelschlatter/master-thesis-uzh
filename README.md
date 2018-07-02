@@ -1,7 +1,8 @@
-# master-thesis-uzh
+# Master thesis at the University of Zurich
 I want to keep my files from my Master Thesis, so they dont get lost in the depth of a harddisk. I probably do not update/edit this content. The folder includes Stata code for detailed fixed effects regression analysis, R code for graphics and .tex files for the thesis.
 
 ## Folder structure and files
+* [abstract](abstract.pdf): describes the subject of the thesis
 * [src](src): Contains all code
     - [figures](src/figures): Contains R code for figures
         - [figure_01](src/figures/figure_01)
