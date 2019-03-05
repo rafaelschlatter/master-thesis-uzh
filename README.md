@@ -3,15 +3,13 @@ I want to keep my files from my Master Thesis, so they dont get lost in the dept
 
 ## Folder structure and files
 * [abstract](abstract.pdf): describes the subject of the thesis
-* [src](src): Contains all code
-    - [figures](src/figures): Contains R code for figures
-        - [figure_01](src/figures/figure_01)
-    - [fixed-effects-reg.do](src/fixed-effects-reg.do): Contains the statistical analysis
-    - [thesis](src/thesis): Contains all .tex files
-        - [cover](src/thesis/cover)
-            - [inside](src/thesis/cover/inside)
-            - [outside](src/thesis/cover/outside)
-        - [main](src/thesis/main)
+* [thesis](thesis): Contains all code
+    - [figures](thesis/figures): Contains R and TeX code for figures
+    - [fixed-effects-reg.do](thesis/fixed-effects-reg.do): Contains the statistical analysis
+    - [MA_LaTeX.tex](src/thesis): Contains all TeX code for the thesis
+        - [cover](thesis/cover)
+            - [inside](thesis/cover/inside)
+            - [outside](thesis/cover/outside)
 
 ## Publication
 My thesis was recently published in the the Junior Management Science (JUMS) journal, and can be accessed here:
