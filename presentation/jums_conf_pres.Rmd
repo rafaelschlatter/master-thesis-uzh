@@ -1,0 +1,66 @@
+---
+title: "The impact of tax differentials on pre-tax income of Swiss MNEs"
+author: "Rafael Schlatter"
+date: "Hamburg, 22.-23.03.2019"
+institute: "2^nd^ Jums Conference"
+output:
+  beamer_presentation:
+    template: "latex_template.tex"
+    colortheme: "crane"
+    theme: "Singapore"
+    toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Introduction
+
+## About me
+
+- Studied at the University of Zurich (2011-2017)
+- Thesis written in Summer 2017
+- Currently living and working in Oslo
+
+## Research question
+
+- **Do Swiss multinational enterprises shift income?**
+
+(Do they deliberately and
+artificially relocate income to low taxed jurisdictions?)
+
+## Context
+Why is it interesting to study this?
+
+# Methodology
+## Model
+- Fixed-effects regression approach
+
+$$
+\begin{aligned}
+  \ln \Pi_{it} & = \beta_0+\beta_1 \cdot \ln A_{it}+\beta_2 \cdot \ln L_{it} \\
+  & + \beta_3 \cdot \ln K_{it} - \beta_4 \cdot \tau_{it} +u_{it} 
+\end{aligned}
+$$
+
+## How to use the model?
+wfa
+
+## Data
+wafwer
+
+# Results
+## Some results
+we23r
+
+# Conclusion
+## Weaknesses
+3r23
+
+## Thank you!
+
+If you have further questions we can get in touch:
+
+- <rafaelschlatter@gmail.com>
+- <https://www.linkedin.com/in/rafaelschlatter/>
