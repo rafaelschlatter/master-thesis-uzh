@@ -16,4 +16,4 @@ My thesis was published in the the Junior Management Science (JUMS) journal on t
         - [cover](thesis/cover)
             - [inside](thesis/cover/inside)
             - [outside](thesis/cover/outside)
-* [presentation](presentation): Files for the presentation at the JUMS conference.
+* [presentation](presentation): Files for the presentation at the JUMS conference (22.-23.3.2019, in Hamburg).
