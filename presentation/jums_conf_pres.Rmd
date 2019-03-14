@@ -2,7 +2,7 @@
 title: "The impact of tax differentials on pre-tax income of Swiss MNEs"
 author: "Rafael Schlatter"
 date: "Hamburg, 22.-23.03.2019"
-institute: "2^nd^ Jums Conference"
+institute: "2^nd^ JUMS Conference"
 output:
   beamer_presentation:
     template: "latex_template.tex"
@@ -16,27 +16,43 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 # Introduction
-
 ## About me
 
 - Studied at the University of Zurich (2011-2017)
 - Thesis written in Summer 2017
 - Currently living and working in Oslo
 
-## Research question
+## What is it about?
 
-- **Do Swiss multinational enterprises shift income?**
+- **Do Swiss multinational enterprises shift profits?**
 
-(Do they deliberately and
-artificially relocate income to low taxed jurisdictions?)
+- *multinational enterprise*: Corporate group with different legal affiliates (Swiss parent & foreign subsidiaries) in different countries
 
-## Context
-Why is it interesting to study this?
+- *shifting profits*: deliberately and artificially relocate income to low-taxed jurisdictions
+
+## How to shift profits?
+INCLUDE GRAPHIC HERE!!!
+Affiliates (parent & subsidiary companies of the same enterprise)  
+
+- Sell intermediate goods from high-taxed (low-taxed) affiliate to low-taxed (high-taxed) affiliate at above (below) market price
+
+- Provide loans from high-taxed (low-taxed) affiliate to low-taxed (high-taxed) affiliate at below (above) market interest rate
+
+- The taxes saved amount to the difference in tax rates multiplied by the transfer price or interest payment
+
+
+## Why is it interesting to study profit shifting in Switzerland?
+![Tax differentials in Europe in 2015](europe_maps.pdf)
+
+- Tax differential: $\tau = \textrm{foreign tax rate} - \textrm{Swiss tax rate}$
 
 # Methodology
-## Model
-- Fixed-effects regression approach
+## How to study profit shifting?
 
+- Some relationship between affiliates needed
+- EBIT should not be influenced by taxes (in the absence of profit shifting)
+
+## Model
 $$
 \begin{aligned}
   \ln \Pi_{it} & = \beta_0+\beta_1 \cdot \ln A_{it}+\beta_2 \cdot \ln L_{it} \\
@@ -44,8 +60,15 @@ $$
 \end{aligned}
 $$
 
+- $\Pi_{it}$: Earnings before interest and taxes,
+- $A$: Technology input (GDP per capita),
+- $L$: Labour input,
+- $K$: Capital input,
+- $\tau$: Tax differential (subsidiary rate - Swiss rate)
+
+
 ## How to use the model?
-wfa
+Partial differentiation
 
 ## Data
 wafwer
