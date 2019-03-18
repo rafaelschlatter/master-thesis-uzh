@@ -95,7 +95,7 @@ $$
 - panel data: each subsidiary observed over multiple years, 2007-2015 (the $t$ index)
 - balance sheet data from ORBIS (Bureau van Dijk)
 - tax data from KPMG, GDP data from the World Bank
-- sample size: 26'869 observations (from 63 countries)
+- sample size: 4'862 subsidiaries, 26'869 observations (from 63 countries)
 
 ## More data
 \begin{center}
@@ -105,13 +105,33 @@ $$
 # Results
 ## Some results
 - $\beta_{4} = - 1.458 \textrm{ (} t\textrm{-statistic: }-3.390)$, statistically significant
-- **If the tax differential increases by 1 percentage point, the subsidiary EBIT decreases by 1.468\%.**
-- COMPARISON WITH OTHER EMPIRICAL PAPERS
+- **If the tax differential increases by 1 percentage point, the subsidiary EBIT decreases by 1.458\%.**
+- Beer & Loeprick (2015): $-1.00$, Dischinger (2008): $-0.75$
+
+## Interpreting the result
+**Example 1: The average subsidiary**
+
+EBIT = $698'716$ CHF, tax differential = $0.082$ $\rightarrow$ effect = $698'716 \textrm{ CHF} \cdot -1.458\% = -10'481$ CHF
+
+
+**Example 2: ABB AS, Norwegian subsidiary (wholly owned, 2013 data)**
+
+EBIT = $127'834'360$ CHF, tax differential = $0.10$ $\rightarrow$ effect = $127'834'360 \textrm{ CHF} \cdot -1.458\% = -1'863'825$ CHF
+
 
 # Conclusion
+## Shortcomings
+- Ownership data: not available, shifting between subsidiaries not respected
+- Ownership data: for last year available only
+- ORBIS: low coverage for tax havens
+- Losses: Companies with a loss have a different incentive to shift profits
+
 ## Points for discussion
-- 3r23
-- raise issues for discussions
+- Is profit shifting unethical or a smart way to maximise income?
+
+- Should countries with low effective taxes be put under pressure?
+
+- Is international cooperation necessary to build tax laws or should market forces guide the way to an equilibrium? 
 
 ## Thank you!
 
@@ -119,3 +139,4 @@ If you have further questions we can get in touch:
 
 - <rafaelschlatter@gmail.com>
 - <https://www.linkedin.com/in/rafaelschlatter/>
+- <https://www.strava.com/athletes/24969674>
