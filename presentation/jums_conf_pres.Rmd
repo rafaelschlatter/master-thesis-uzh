@@ -5,6 +5,7 @@ date: "Hamburg, 22.-23.03.2019"
 institute: "2^nd^ JUMS Conference"
 header-includes:
    - \usepackage{graphicx}
+   - \usepackage{fontawesome}
 output:
   beamer_presentation:
     template: "latex_template.tex"
@@ -13,8 +14,9 @@ output:
     toc: true
 ---
 
-```{r setup, include=FALSE}
+```{r load_packages, setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+library(fontawesome)
 ```
 
 # What is it about?
@@ -38,7 +40,6 @@ knitr::opts_chunk$set(echo = FALSE)
 - *shifting profits*: deliberately and artificially relocate income to low-taxed jurisdictions
 
 ## Ways to shift profits
-INCLUDE GRAPHIC HERE!!!
 Affiliates (parent & subsidiary companies of the same enterprise)  
 
 - Sell intermediate goods from high-taxed (low-taxed) affiliate to low-taxed (high-taxed) affiliate at above (below) market price
@@ -53,12 +54,22 @@ Affiliates (parent & subsidiary companies of the same enterprise)
 
 - Tax differential: $\tau = \textrm{foreign tax rate} - \textrm{Swiss tax rate}$
 
-# Methodology
+# How was it done?
 ## How to study profit shifting?
 
 - Find a relationship between earnings **before** interest and taxes, and tax differentials
 - $H_{0}:$ EBIT is not influenced by taxes (in the absence of profit shifting)
 - There exist other ways (e.g. using transfer prices)
+
+## Data
+- unit of observation: subsidiary of a Swiss parent company
+- panel data: each subsidiary observed over multiple years, 2007-2015
+- balance sheet data from ORBIS (Bureau van Dijk)
+- tax data from KPMG, GDP data from the World Bank
+- sample size: 4'862 subsidiaries, 26'869 observations (from 63 countries)
+
+## More data
+![Number of subsidiaries per country](pic/world_map.pdf)
 
 ## Model
 $$
@@ -90,19 +101,7 @@ $$
 - log-level specification: Marginal effect can be interpreted as a semi-elasticity
 - **"A change in $\tau_{it}$ by 1 percentage point (0.01) is associated with an average decrease of $\Pi_{it}$ by $\beta_{4}$ percent."**
 
-## Data
-- unit of observation: subsidiary of a Swiss parent company (the $i$ index)
-- panel data: each subsidiary observed over multiple years, 2007-2015 (the $t$ index)
-- balance sheet data from ORBIS (Bureau van Dijk)
-- tax data from KPMG, GDP data from the World Bank
-- sample size: 4'862 subsidiaries, 26'869 observations (from 63 countries)
-
-## More data
-\begin{center}
-  \includegraphics[width=1\textwidth]{pic/world_map.pdf}
-\end{center}
-
-# Results
+# What are the findings?
 ## Some results
 - $\beta_{4} = - 1.458 \textrm{ (} t\textrm{-statistic: }-3.390)$, statistically significant
 - **If the tax differential increases by 1 percentage point, the subsidiary EBIT decreases by 1.458\%.**
@@ -135,8 +134,10 @@ EBIT = $127'834'360$ CHF, tax differential = $0.10$ $\rightarrow$ effect = $127'
 
 ## Thank you!
 
-If you have further questions we can get in touch:
+If you have further questions, or want to get in touch:
 
-- <rafaelschlatter@gmail.com>
-- <https://www.linkedin.com/in/rafaelschlatter/>
-- <https://www.strava.com/athletes/24969674>
+\faPaperPlane \hspace{1mm} \textcolor{blue}{\href{mailto:rafaelschlatter@gmail.com}{rafaelschlatter@gmail.com}}
+
+\faLinkedin \hspace{1mm} \textcolor{blue}{\href{https://www.linkedin.com/in/rafaelschlatter/}{linkedin.com/in/rafaelschlatter}}
+
+\faGithub \hspace{1mm} \textcolor{blue}{\href{https://github.com/rafaelschlatter}{github.com/rafaelschlatter}}
