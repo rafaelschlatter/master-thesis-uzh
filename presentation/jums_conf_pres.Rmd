@@ -1,5 +1,5 @@
 ---
-title: "The impact of tax differentials on pre-tax income of Swiss MNEs"
+title: "The impact of tax differentials on pre-tax income of Swiss multinational enterprises"
 author: "Rafael Schlatter"
 date: "Hamburg, 22.-23.03.2019"
 institute: "2^nd^ JUMS Conference"
@@ -67,9 +67,6 @@ Affiliates (parent & subsidiary companies of the same enterprise)
 - balance sheet data from ORBIS (Bureau van Dijk)
 - tax data from KPMG, GDP data from the World Bank
 - sample size: 4'862 subsidiaries, 26'869 observations (from 63 countries)
-
-## More data
-![Number of subsidiaries per country](pic/world_map.pdf)
 
 ## Model
 $$
