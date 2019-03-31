@@ -18,7 +18,7 @@ Due to copyrights I cannot provide the data used (ORBIS, Bureau van Dijk).
 
 <a href="https://jums.academy/">
     <img src=https://jums.academy/wp-content/uploads/2016/06/JUMS-1.png
-    alt="JUMS logo" title="JUMS" align="right" height="30" />
+    alt="JUMS logo" title="Junior Management Science" align="right" height="30" />
 </a>
 
 ## Publication & Presentation
