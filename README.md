@@ -1,5 +1,5 @@
 # The impact of tax differentials on pre-tax income of Swiss multinational enterprises
-[![Generic badge](https://img.shields.io/badge/DOI-https://doi.org/10.5282/jums/v3i1pp88122-BLUE.svg)](https://doi.org/10.5282/jums/v3i1pp88-122)
+[![Generic badge](https://img.shields.io/badge/DOI-10.5282/jums/v3i1pp88122-BLUE.svg)](https://doi.org/10.5282/jums/v3i1pp88-122)
 [![made-with-latex](https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg)](https://www.latex-project.org/)
 
 
@@ -18,7 +18,7 @@ Due to copyrights I cannot provide the data used (ORBIS, Bureau van Dijk).
 
 <a href="https://jums.academy/">
     <img src=https://jums.academy/wp-content/uploads/2016/06/JUMS-1.png
-    alt="JUMS logo" title="JUMS" align="right" height="30" />
+    alt="JUMS logo" title="Junior Management Science" align="right" height="30" />
 </a>
 
 ## Publication & Presentation
